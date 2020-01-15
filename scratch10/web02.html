@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Web 2</title>
+    <style>
+        /* CSS(Cascade Style Sheet):
+         웹(HTML) 문서의 스타일(화면배치, 색상, 폰트,...)을 결정
+
+         CSS Selector(선택자) : 스타일을 적용하기 위해서 HTML 요소를 찾는 방법
+         1)
+         2)
+         3)
+         4)
+
+         */
+
+        li{
+            list-style-type: none; /* bullet 이미지 제거 */
+            display :inline-block; /* 요소들을 한줄에 표시 */
+        }
+        a{
+            text-decoration: none; /* 링크의 밑줄을 제거 */
+        }
+        a:visited { /*방문 했었던 링크
+            color : black;
+        }
+        .class1 {
+            color: blue;
+            border: 2px solid gray; /* 테두리선 */
+            margin: 16px; /* 바깥 여백 */
+            padding : 8px; /* 안쪽 여백 */
+        }
+    </style>
+</head>
+<body>
+    <h1>두 번째로 만드는 HTML</h1>
+    <!-- list -->
+    <ul><!-- ul : unordered list -->
+        <a href = "https://www.google.com"</a>
+            <li>구글</li><!--li: list item -->
+        <a href = "https://www.naver.com"</a>
+            <li>네이버</li>
+        <a href = "https://www.daum.net"</a>
+            <li>다음 카카오</li>
+    </ul>
+
+    <div class='class1'> 여기는 class1 입니다.</div>
+    <div class='class1'> 여기는 class1 입니다.</div>
+    <div class='class2'> 여기는 class2 입니다.</div>
+    <div class='class2'> 여기는 class2 입니다.</div>
+
+</body>
+</html>
